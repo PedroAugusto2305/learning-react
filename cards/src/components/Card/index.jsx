@@ -4,12 +4,12 @@ import Text from "../Text";
 import Title from "../Title";
 import "./style.css";
 
-export default function Card() {
+export default function Card(props) {
     return (
         <div className="container">
             <Poster />
             <div className="content">
-            <Title />
+            <Title title={props.title}/>
             <Text />
             <Button />
             </div>
