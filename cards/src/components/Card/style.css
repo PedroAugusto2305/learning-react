@@ -1,0 +1,9 @@
+.container {
+    padding: 4rem;
+    background-color: lightgray;
+    display: flex;
+    gap: 6rem;
+    border-radius: 1rem;
+
+    font-family: sans-serif;
+}
