@@ -6,6 +6,7 @@ export default function App() {
             <Profile
                 avatar="https://avatars.githubusercontent.com/u/85378029?v=4"
                 nome="Avatar Pedro"
+                text="Pedro"
                 bio="Software Engineer"
                 email="pedro@email.com"
                 phone="+5512123456"
